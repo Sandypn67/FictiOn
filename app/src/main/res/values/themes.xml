@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FictiOn" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Toolbar</item>
+        <item name="colorPrimaryVariant">@color/widget</item>
+        <item name="colorOnPrimary">@color/writeTool</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/fond</item>
+        <item name="colorSecondaryVariant">@color/write</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.FictiOn">
+        <!-- Customize your theme here. -->
+        <!-- Base application thème. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
+    </style>
+
+    <style name="Theme.FictiOn.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="fonttext" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/indieflowerregular</item>
+    </style>
+    <style name="fonttitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/spiraxregular</item>
+    </style>
+
+    <style name="Theme.FictiOn.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FictiOn.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
