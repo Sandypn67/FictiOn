@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.fiction.MainActivity">
+    tools:context="com.example.RadarPop.MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.FictiOn.AppBarOverlay">
+        android:theme="@style/Theme.Esiea3a.AppBarOverlay">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -20,8 +20,7 @@
             app:titleTextAppearance="@color/invisible"
             android:background="@drawable/banniere"
             android:minHeight="?attr/actionBarSize"
-            app:popupTheme="@style/Theme.FictiOn.PopupOverlay" />
-
+            app:popupTheme="@style/Theme.Esiea3a.PopupOverlay" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,5 +33,6 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

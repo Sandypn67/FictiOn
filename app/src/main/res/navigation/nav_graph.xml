@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/BookListFragment"
-        android:name="com.example.fiction.template.detail.BookDetailFragment"
+        android:name="com.example.RadarPop.template.list.BookListFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_book_list">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/BookDetailFragment"
-        android:name="com.example.fiction.template.detail.BookDetailFragment"
+        android:name="com.example.RadarPop.template.detail.BookDetailFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_book_detail">
 

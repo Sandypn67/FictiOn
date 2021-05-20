@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fond"
-    tools:context="com.example.fiction.template.detail.BookDetailFragment">
+    tools:context="com.example.RadarPop.template.detail.BookDetailFragment">
 
     <TextView
         android:id="@+id/book_detail_name"

@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.FictiOn" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Esiea3a" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/Toolbar</item>
         <item name="colorPrimaryVariant">@color/widget</item>
@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="AppTheme" parent="Theme.FictiOn">
+    <style name="AppTheme" parent="Theme.Esiea3a">
         <!-- Customize your theme here. -->
         <!-- Base application thème. -->
         <item name="windowNoTitle">true</item>
@@ -22,10 +22,11 @@
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.TextView.SpinnerItem</item>
     </style>
 
-    <style name="Theme.FictiOn.NoActionBar">
+    <style name="Theme.Esiea3a.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="fonttext" parent="@android:style/TextAppearance.Small">
         <item name="android:fontFamily">@font/indieflowerregular</item>
     </style>
@@ -33,7 +34,7 @@
         <item name="android:fontFamily">@font/spiraxregular</item>
     </style>
 
-    <style name="Theme.FictiOn.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Esiea3a.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.FictiOn.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Esiea3a.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
