@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.fiction"
+        applicationId "com.example.radarpop"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -44,7 +44,6 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
     // RecyclerView
     implementation "androidx.recyclerview:recyclerview:1.0.0"
 
